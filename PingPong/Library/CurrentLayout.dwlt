@@ -106,8 +106,8 @@ MonoBehaviour:
     y: 30
     width: 1904
     height: 931
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 45
 --- !u!114 &6
@@ -130,7 +130,7 @@ MonoBehaviour:
     y: 0
     width: 1518
     height: 931
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 46
@@ -154,8 +154,8 @@ MonoBehaviour:
     y: 0
     width: 1518
     height: 563
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
   controlID: 47
 --- !u!114 &8
@@ -367,7 +367,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: d8fbffff00000000
+    m_ExpandedIDs: 34c8ffffaec8ffff32c9ffffaac9ffff2ecaffffa6caffff2acbffffaecbffff26ccffffaaccffffe4d1ffff68d2ffffccd6ffff52d7ffff1ad8ffff9ed8ffff58d9ffffdcd9ffff94dbffff18dcffff9cdcffffd0dfffffe2e1ffff28f0fffff2f3ffff76f4fffffaf4ffff3af6ffff16f9ffff8af9ffff0efaffff82faffffdcfbffff000000006a2800008c280000d02800002a290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - Menu
+  - Level2
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -412,8 +412,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: -31622
-    y: -31951
+    x: 386
+    y: 100
     width: 1138
     height: 542
   m_SceneLighting: 1
@@ -533,13 +533,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: G:\Level 4 Year 2\Programming for computer games\PingPongGame\PingPong
+  m_LastProjectPath: G:\Level 4 Year 2\Programming for computer games\PingPongAssignment\PingPong
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a250000
-    m_LastClickedID: 9514
-    m_ExpandedIDs: 000000000225000000ca9a3bffffff7f
+    m_SelectedIDs: 24250000
+    m_LastClickedID: 9508
+    m_ExpandedIDs: 00000000fc24000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -567,7 +567,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000002250000
+    m_ExpandedIDs: 00000000fc240000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000084250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

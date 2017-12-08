@@ -51,9 +51,8 @@
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\Player1Controls.cs" />
      <Compile Include="Assets\Scripts\Player2Controls.cs" />
-     <Compile Include="Assets\Scripts\PongLevels.cs" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>G:/Level 4 Year 2/Programming for computer games/PingPongGame/PingPong/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>G:/Level 4 Year 2/Programming for computer games/PingPongAssignment/PingPong/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

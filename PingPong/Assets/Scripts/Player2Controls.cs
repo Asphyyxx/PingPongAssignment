@@ -22,11 +22,11 @@ public class Player2Controls : MonoBehaviour {
 
 		  var pos = transform.position;
 		  if(pos.y > boundY) {
-			pos.y = boundY;
+				pos.y = boundY;
 		  }
 
 		  else if(pos.y <- boundY) {
-			pos.y = -boundY;
+				pos.y = -boundY;
 		  }
 		  transform.position = pos;
 	}

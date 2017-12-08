@@ -35,12 +35,12 @@ public class CountScore : MonoBehaviour {
 		}
 
 
-		if(player1Score >= 7) {
+		if(player1Score >= 5) {
 			SceneManager.LoadScene(2);
 		}
 
-		if(player2Score >= 7) {
-			SceneManager.LoadScene(3);
+		if(player2Score >= 5) {
+			SceneManager.LoadScene(2);
 		}
 
 
