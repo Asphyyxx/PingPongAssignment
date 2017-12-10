@@ -23,8 +23,10 @@ public class Ball : MonoBehaviour {
 		
 		if (Mathf.Abs(this.transform.position.x) >= 11f) {
 			CountScore.canAddScore = true;
+			CountScoreLevel2.canAddScorelvl2 = true;
 			this.transform.position = new Vector3(0f,0f,0f);
 			StartCoroutine (Pause ());
+			
 		}
 
 	}

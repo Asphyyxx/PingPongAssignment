@@ -12,8 +12,8 @@ public class CountScore : MonoBehaviour {
 	public static bool canAddScore = true;
 
 
-	private int player1Score = 0;
-	private int player2Score = 0;
+	public int player1Score = 0;
+	public int player2Score = 0;
 
 
 	// Use this for initialization
@@ -24,12 +24,12 @@ public class CountScore : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (ball.transform.position.x >= 10.5f && canAddScore) {
+		if (ball.transform.position.x >= 9.5f && canAddScore) {
 			canAddScore = false;
 			player1Score++;
 		}
 
-		if(ball.transform.position.x <= -10.5f && canAddScore) {
+		if(ball.transform.position.x <= -9.5f && canAddScore) {
 			canAddScore = false;
 			player2Score++;
 		}

@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player1Controls : MonoBehaviour {
-	private float Speed;
 	private float boundY = 3.7f;
 	private Rigidbody2D rb;
 
 	// Use this for initialization
 	void Start () {
-		Speed = 5;
+		
 		rb = this.GetComponent<Rigidbody2D>();
 	}
 	
@@ -18,7 +17,7 @@ public class Player1Controls : MonoBehaviour {
 		float axisX = Input.GetAxis("Vertical");
 		float axisY = Input.GetAxis("Horizontal");
 
-		transform.Translate(new Vector2(axisY,axisX) * Time.deltaTime * Speed);
+		transform.Translate(new Vector2(axisY,axisX));
 
 		var pos = transform.position;
 		if(pos.y > boundY) {
