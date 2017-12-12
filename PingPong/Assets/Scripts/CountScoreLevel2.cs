@@ -40,7 +40,7 @@ public class CountScoreLevel2 : MonoBehaviour {
 		}
 
 		if(player2Scorelvl2 >= 7) {
-			SceneManager.LoadScene(4);
+			SceneManager.LoadScene(3);
 		}
 
 
